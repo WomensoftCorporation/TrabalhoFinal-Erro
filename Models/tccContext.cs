@@ -27,8 +27,7 @@ namespace tcc20.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=localhost;user id=root;password=123456;database=tcc", x => x.ServerVersion("8.0.19-mysql"));
+                optionsBuilder.UseMySql("server=localhost;user id=admin;password=1234@AbC#2020;database=tcc", x => x.ServerVersion("8.0.19-mysql"));
             }
         }
 
