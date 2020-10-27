@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right,#660033,#e6000d)no-repeat center fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+.menu{ border-bottom: solid rgba(5, 5, 5, 0.76) 0.5px; 
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgba(5, 5, 5, 0.698) no-repeat fixed;
+    z-index: 1;
+}
+
+
+.Display1{font-size: 80px; color: black;}
+
+.blockquote {padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 65px;
+}
+
+.a1 {text-decoration: underline; color: white;
+    position: relative; background-color: rgba(255, 255, 255, 0); border-radius: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer; border: 2px solid #ffffff00;
+    width: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.a1:hover { 
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+.a1:hover:before{
+    left: 0%;
+    right: auto;
+    width: 100%; border-radius: 10px
+}
+
+    
+.a1:before{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: rgb(255, 255, 255);
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    border-radius: 14px;
+
+}
+    
+.h3{ color: white; font-size: 15px !important; position: relative; top: 15px;color: rgba(255, 255, 255, 0.472);}
+
+
+.text{ position: relative; top: 10px; left: 10px !important;}
+
+input{width: 400px; display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+input:focus{background-color: transparent; border: none;border-bottom: 1px solid rgb(255, 255, 255);
+color: white;
+}
+
+label{ color: white; position: relative; left: -180px; font-size: 15px;}
+    
+.blockquote {display: inline-block; }
+
+.b2 { background-color: rgb(255, 255, 255); padding: 10px 24px; border-radius: 10px;  text-decoration: none; transition-duration: 0.4s;
+    cursor: pointer; border: 2px solid #ffffff00;
+
+    position: relative;
+    width: 200px;
+    height: 60px;
+}
+
+.b2:hover {background-color: rgb(255, 255, 255); 
+
+    color: #000;
+	background-color: transparent;
+
+}
+
+.b2:hover:before  {
+    left: 0%;
+	right: auto;
+    width: 100%; border-radius: 10px
+}
+    
+.b2:before 
+{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: rgb(255, 255, 255);
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    border-radius: 14px
+}
+
+footer{
+    position: relative; top: 211px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: flex;
+}
+
+
+
+

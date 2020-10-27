@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Taissa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Taissa\\.nuget\\packages"
+    ]
+  }
+}
