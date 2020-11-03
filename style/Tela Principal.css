@@ -96,7 +96,89 @@ footer{
 }
 
 .menu{padding-top: 10px;}
-.usus {
+.usus 
+{
   position: absolute;
   left: 1010px;
-  }
+  z-index: 1;
+  text-decoration: none; transition-duration: 0.4s;
+}
+
+.Dest{padding-left: 20px; padding-top: 5px; color: white; font-size: 20px;}
+
+
+.bm2  {position: absolute;  top: 10px; left: 400px; background-color: rgba(255, 255, 255, 0); padding: 10px 24px; border-radius: 14px;  text-decoration: none; transition-duration: 0.4s;
+  cursor: pointer; border: 2px solid #ffffff00;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  z-index: 1;
+
+  color: #fff;
+
+} 
+
+.bm1 {position: absolute; top: 10px;left: 250px; background-color: rgba(255, 255, 255, 0); padding: 10px 24px; border-radius: 14px;  text-decoration: none; transition-duration: 0.4s;
+  cursor: pointer; border: 2px solid #ffffff00;
+
+z-index: 1;
+
+  color: #fff;
+cursor: pointer;
+display: block;
+
+
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+} 
+
+.bm3 {position: absolute; top: 10px; left: 550px; background-color: rgba(255, 255, 255, 0); padding: 10px 24px; border-radius: 14px;  text-decoration: none; transition-duration: 0.4s;
+  cursor: pointer; border: 2px solid #ffffff00;
+
+z-index: 1;
+
+  color: #fff;
+cursor: pointer;
+display: block;
+
+
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+} 
+
+.bm1:hover, .bm2:hover, .bm3:hover, .u:hover{background-color: rgb(255, 255, 255); 
+
+  color: #000;
+background-color: transparent;
+
+}
+
+
+
+.sub-menu:hover, .u:hover{ color: rgb(0, 0, 0);}
+.p:hover,.c:hover,.s:hover{ color: rgb(219, 219, 219) !important;}
+
+.bm1:hover:before , .bm2:hover:before, .bm3:hover:before, .u:hover:before{
+  left: 0%;
+right: auto;
+width: 100%; border-radius: 10px}
+
+
+.bm1:before , .bm2:before, .bm3:before, .u:before
+{
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      width: 0px;
+      z-index: -1;
+      content: '';
+      color: #000 !important;
+      background: rgb(255, 255, 255);
+      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      border-radius: 14px
+}
+
