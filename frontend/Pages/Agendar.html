@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/Agendar.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar</title>
+</head>
+<body>
+    
+    <div class="menu">
+        <ul class="menu-list">
+          <h2>MaxCine</h2>
+          <button class="bm1" href="#">Agendar</button>
+          <button class="bm2" href="#">Programação</button>
+          <button class="bm3" href="#">Cinemas</button>
+          <li class="usus">
+            <a class="u" href="#"> <p class="usuario">Usuário <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg></p> </a>
+             <ul class="sub-menu">
+              <li><a class="dia" href="#">Pedidos <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+              </svg></a></li>
+              <li><a class="c" href="#">Cartões <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+              </svg></a></li>
+              <li><a class="s" href="#">Sair      <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-box-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+              </svg></span></a></li>
+            </ul>
+          </li>
+          
+        </ul>
+    </div> 
+
+    <div class="filme"><h4 class="fm">Selecione um Filme</h4></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+  <select class="fake-sel" name="filme">
+    <option value="Aladdin">Aladdin</option>
+    <option value="ComoCaes">Como Cães e Gatos</option>
+    <option value="Frozen2">Frozen 2</option>
+    <option value="JovensBruxas">Jovens Bruxas</option>
+    <option value="Mulan">Mulan</option>
+    <option value="Scooby">Scooby: O Filme</option>  
+  </select>
+
+  <div class="data"><h4 class="dt">Data</h4></div>
+
+  <div class="Data">
+
+    <label class="labl">
+        <input type="radio" name="radioname" value="d" checked="checked"/>
+        <p class="dia">29/11</p>
+    </label>
+    <label class="labl">
+        <input type="radio" name="radioname" value="d" />
+        <p class="dia">31/11</p>
+    </label>
+    <label class="labl">
+        <input type="radio" name="radioname" value="d" />
+        <p class="dia">02/12</p>
+    </label>
+    <label class="labl">
+        <input type="radio" name="radioname" value="d" />
+        <p class="dia">03/12</p>
+    </label>
+    <label class="labl">
+        <input type="radio" name="radioname" value="d" />
+        <p class="dia">05/12</p>
+    </label>
+
+ </div>
+
+ <div class="Shopping"><h4 class="fm">Selecione um Shopping</h4></div>
+ <select class="sp" name="Shopping">
+     
+ <option class="i" value="Aladdin">Interlagos (Av. Interlagos, 2255 - Interlagos, São Paulo - SP, 04661-200)</option>
+ <option value="ComoCaes">SP Market (Av. das Nações Unidas, 22540 - Jurubatuba, São Paulo - SP, 04795-000)</option>
+ <option value="Frozen2">Shopping Fiesta (Av. Guarapiranga, 752 - Vila Socorro, São Paulo - SP, 04762-001)</option>
+ </select>
+
+ <div class="s1"><h4 class="dt">Sala 1 DUB</h4></div>
+
+ <div class="S1">
+
+   <label class="labl">
+       <input type="radio" name="h" value="h" checked="checked"/>
+       <p class="HR">18:30</p>
+   </label>
+   <label class="labl">
+       <input type="radio" name="h" value="h" />
+       <p class="HR">20:30</p>
+   </label>
+   <label class="labl">
+       <input type="radio" name="h" value="h" />
+       <p class="HR">22:10</p>
+   </label>
+   
+   </label>
+
+</div>
+
+<div class="s2"><h4 class="dt">Sala 2 LEG</h4></div>
+
+  <div class="S2">
+
+    <label class="labl">
+        <input type="radio" name="h" value="h" checked="checked"/>
+        <p class="hr">17:15</p>
+    </label>
+    <label class="labl">
+        <input type="radio" name="h" value="h" />
+        <p class="hr">19:30</p>
+    </label>
+
+ </div>
+
+ 
+
+
+ <a ><button class="prox" >Próximo <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </svg></button></a>
+    
+<script>
+  $(function(){
+   
+    var sels = $(".fake-sel");
+    
+    var imgs_ = [
+       [
+           "../imagens/aladdin poster.jpg",
+           "../imagens/como caes e gatos poster.jpg",
+           "../imagens/Frozen2 poster.jpg",
+           "../imagens/jovens bruxas poster.jpg",
+           "../imagens/mulan poster.jpg",
+           "../imagens/scooby poster.jpg"
+       ]
+    ];
+ 
+    sels.each(function(x){
+       
+       var $t = $(this);
+       
+       var opts_ = '', first;
+       
+       $t.find("option").each(function(i){
+          
+          if(i == 0){
+             first = "<li><img src='"+ imgs_[x][i] +"'>"+ $(this).text() +"</li>";
+          }
+          opts_ += "<li"+ (i == 0 ? " class='ativo'" : '') +"><img src='"+ imgs_[x][i] +"'>"+ $(this).text() +"</li>";
+       });
+ 
+       $t
+       .wrap("<div class='fake-sel-wrap'></div>")
+       .parent()
+       .css("width", $t.outerWidth()+60)
+       .append("<ul>"+ first+opts_ +"</ul>")
+       .find("ul")
+       .on("click", function(e){
+          e.stopPropagation();
+          $(".fake-sel-wrap ul")
+          .not(this)
+          .removeClass("ativo");
+          $(this).toggleClass("ativo");
+       })
+       .find("li:not(:first)")
+       .on("click", function(){
+          $(this)
+          .addClass("ativo")
+          .siblings()
+          .removeClass("ativo")
+          .parent()
+          .find("li:first")
+          .html($(this).html());
+          
+          $t.val($(this).text());
+          
+       });
+    });
+    
+    $(document).on("click", function(){
+       $(".fake-sel-wrap ul").removeClass("ativo");
+    });
+    
+ });
+</script>
+
+
+
+    <footer><text>&copy;2020 WomenSoft Corporation</text></footer>
+</body>
+</html>

@@ -5,7 +5,7 @@ body
   
   background: linear-gradient(to bottom right, #660033, #e6000d) no-repeat center fixed;  
   width: 100%;
-  height: 100%;
+  height: 440px;
   background-size: cover; 
 
 border: rgb(255, 255, 255) 2px;
@@ -84,7 +84,7 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
 
 
 footer{
-    position: relative; top: 430px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
+    position: relative; top: -3200px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
     text-align: center;
     padding-top: 15px;
     padding-right: 15px;
@@ -196,25 +196,25 @@ font-size: 16.5px;
 .bi-box-arrow-right{position: relative; left: 34px;}
 
 
-.cartaz{padding-left: 20px; padding-top: 5px; color: white; font-size: 20px;}
-
-.cart{display: inline-block;}
+.cartaz{position: relative; top: -1677px; padding-left: 20px; padding-top: 5px; color: white; font-size: 20px;}
 
 
-.filme1{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme2{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme3{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme4{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme5{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme6{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme7{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme8{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme9{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme10{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme11{position: relative; width: 100%; height: 100%; align-items: center; }
-.filme12{position: relative; width: 100%; height: 100%; align-items: center; }
 
- 
+
+.filme1{position: relative; left: 100px; width: 300px; height: 100%; align-items: center}
+.filme2{position: relative; left: 500px; top: -442px; width: 300px; height: 100%; align-items: center;}
+.filme3{position: relative; left: 900px; top: -885px; width: 300px; height: 100%; align-items: center;}
+.filme4{position: relative; left: 100px; top: -800px; width: 300px; height: 100%; align-items: center; }
+.filme5{position: relative; left: 500px; top: -1242px; width: 300px; height: 100%; align-items: center; }
+.filme6{position: relative; left: 900px; top: -1685px; width: 300px; height: 100%; align-items: center; }
+.filme7{position: relative; left: 100px; top:-1660px; width: 300px;; height: 100%; align-items: center; }
+.filme8{position: relative; left: 500px; top: -2105px; width: 300px; height: 100%; align-items: center; }
+.filme9{position: relative; left: 900px; top: -2530px; width: 300px; height: 100%; align-items: center; }
+.filme10{position: relative; left: 100px; top:-2420px; width: 300px; height: 100%; align-items: center; }
+.filme11{position: relative; left: 500px; top: -2847px; width: 300px; height: 100%; align-items: center; }
+.filme12{position: relative; left: 900px; top: -3287px; width: 300px; height: 100%; align-items: center; }
+
+img{width: 300px;}
 
     .overlay {
         position: absolute;
@@ -223,7 +223,7 @@ font-size: 16.5px;
         right: 0;
         background: rgba(5, 5, 5, 0.698);
         overflow: hidden;
-        width: 20%;
+        width: 100%;
         height: 0;
         transition: .5s ease;
         align-items: center;
@@ -231,52 +231,52 @@ font-size: 16.5px;
       
       .filme1:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
  
       .filme2:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme3:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme4:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme5:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme6:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme7:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme8:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme9:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme10:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme11:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
       .filme12:hover .overlay
       {
-        height: 100%; width: 20%;
+        height: 100%; width: 100%;
       }
 
 
@@ -327,3 +327,5 @@ font-size: 16.5px;
       border: 1px solid rgb(255, 255, 255);
       
       }
+
+.breve{height: 0px;}
