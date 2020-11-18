@@ -103,17 +103,16 @@ border: rgb(255, 255, 255) 2px;
 
 .sub1
 { position: relative;  
-    top: -270px;
-    padding-right: 400px;
+    top: -500px;
+    padding-right: 300px;
        
 }
 
 .sub2
 { position: relative;  
-    position: relative;
     top: -50px;
     
-    padding-left: 220px;
+    padding-left: 140px;
        
        
 
@@ -122,8 +121,8 @@ border: rgb(255, 255, 255) 2px;
 p{ font-size: 25px; color: white; }
 
 .sub3_1{ position: relative;  
-    top: 190px;
-    padding-left: 320px;
+    top: 100px;
+    padding-left: 220px;
 }
 
 .login{ position: relative; top: 550px;  height: 730px; }
@@ -215,9 +214,9 @@ p{ font-size: 25px; color: white; }
         border-radius: 14px
 }
 
-.sub22{position: relative; top: 330px; padding-right: 670px; }
-.sub11 {position: relative; top: -170px; padding-left: 650px;}
-.sub33 {position: relative; top: 110px;  padding-right: 670px;}
+.sub22{position: relative; top: 270px; padding-right: 670px; height: 300px; width: 1100px;}
+.sub11 {position: relative; top: -330px; padding-left: 650px; height: 300px; width: 1100px;}
+.sub33 {position: relative; top: 90px;  padding-right: 670px; height: 300px; width: 1100px;}
 
 footer{
     position: relative; top: 430px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;

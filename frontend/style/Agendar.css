@@ -14,7 +14,10 @@ border: rgb(255, 255, 255) 2px;
 
 }
 
-h2{color: white;  display:inline; padding-right: 100px; position: relative;left: -140px; padding-top: 10px;}
+h2{color: white;  display:inline;  position: relative;padding-top: 10px;}
+
+.mx{text-decoration: none; border-bottom: none;}
+.mx:hover{text-decoration: none;}
 
   .menu{
     background: rgba(5, 5, 5, 0.698);}
@@ -24,7 +27,6 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     list-style: none;
   }
   
-  /* Configura todos os links do nosso menu */
   .menu a{
     color: #fff;
     text-decoration: none;
@@ -40,25 +42,21 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     float: left;
     position: relative;
   }
-  /* Configura os links do menu principal */
   .menu > .menu-list > li > a {
     padding: 20px;
     margin: 0 5px;
 }
 
 
-  /* Configura o fundo do menu principal quando com mouse hover */
   .menu > .menu-list > li:hover a {
     background: rgba(131, 100, 100, 0.034);
     text-decoration: none;
 
 
   }
-  /* Mostra o submenu no evento de mouse hover */
   .menu > .menu-list > li:hover > .sub-menu {
     display: block;
 }
-  /* Configura o estilo do submenu */
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
     top: 58px;
@@ -68,11 +66,9 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     z-index: 1000;
     display: none;
   }
-  /* Configura os links do submenu */
   .menu > .menu-list > li > .sub-menu > li > a {
       padding: 10px 20px;
   }
-  /* Clearfix para o menu */
   .menu:after {
     content: '.';
     display: block;
@@ -98,6 +94,7 @@ footer{
 .menu{padding-top: 10px; height: 68px;}
 .usus 
 {
+  top: -40px;
   position: absolute;
   left: 1010px;
   z-index: 1;
@@ -115,6 +112,7 @@ footer{
   z-index: 1;
 
   color: #fff;
+  font-size: 15px;
 
 } 
 
@@ -126,7 +124,7 @@ z-index: 1;
   color: #fff;
 cursor: pointer;
 display: block;
-
+font-size: 15px;;
 
 transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 
@@ -206,6 +204,7 @@ font-size: 16.5px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+.am, .am2{font-size: 15px;}
 
 .bi-box-arrow-right{position: relative; left: 34px;}
 
@@ -284,7 +283,6 @@ font-size: 16.5px;
 
  }
  
- /* ESTE É O CSS DA SETINHA */
  .fake-sel-wrap ul li:nth-child(1)::after{
     content: '';
     width: 0;
@@ -311,15 +309,15 @@ font-size: 16.5px;
     border: #fff 1px solid;
     border-radius: 8px;
 }
-.labl > input{ /* HIDE RADIO */
-    visibility: hidden; /* Makes input not-clickable */
-    position: absolute; /* Remove input from document flow */
+.labl > input{ 
+    visibility: hidden; 
+    position: absolute; 
 }
-.labl > input + p{ /* DIV STYLES */
+.labl > input + p{ 
     cursor:pointer;
     border:2px solid transparent;
 }
-.labl > input:checked + p{ /* (RADIO CHECKED) DIV STYLES */
+.labl > input:checked + p{ 
     background-color:  rgba(2, 2, 2, 0.418);
     border: 1px solid #ffffff; height: 50px; border-radius: 8px;
 }

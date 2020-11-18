@@ -13,7 +13,10 @@ border: rgb(255, 255, 255) 2px;
 
 }
 
-h2{color: white;  display:inline; padding-right: 100px; position: relative;left: -140px; padding-top: 10px;}
+.mx{text-decoration: none; border-bottom: none;}
+.mx:hover{text-decoration: none;}
+
+h2{color: white;  display:inline;  position: relative;padding-top: 10px;}
 
   .menu{
     background: rgba(5, 5, 5, 0.698);}
@@ -23,7 +26,6 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     list-style: none;
   }
   
-  /* Configura todos os links do nosso menu */
   .menu a{
     color: #fff;
     text-decoration: none;
@@ -39,25 +41,21 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     float: left;
     position: relative;
   }
-  /* Configura os links do menu principal */
   .menu > .menu-list > li > a {
     padding: 20px;
     margin: 0 5px;
 }
 
 
-  /* Configura o fundo do menu principal quando com mouse hover */
   .menu > .menu-list > li:hover a {
     background: rgba(131, 100, 100, 0.034);
     text-decoration: none;
 
 
   }
-  /* Mostra o submenu no evento de mouse hover */
   .menu > .menu-list > li:hover > .sub-menu {
     display: block;
 }
-  /* Configura o estilo do submenu */
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
     top: 58px;
@@ -67,11 +65,9 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     z-index: 1000;
     display: none;
   }
-  /* Configura os links do submenu */
   .menu > .menu-list > li > .sub-menu > li > a {
       padding: 10px 20px;
   }
-  /* Clearfix para o menu */
   .menu:after {
     content: '.';
     display: block;
@@ -81,9 +77,10 @@ h2{color: white;  display:inline; padding-right: 100px; position: relative;left:
     height: 0;
   }
 
+  .am, .am2{font-size: 15px;}
 
 footer{
-    position: relative; top: 352px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
+    position: relative; top: 342px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
     text-align: center;
     padding-top: 15px;
     padding-right: 15px;
@@ -94,18 +91,18 @@ footer{
 
 }
 
-h3{color: white; padding-left: 40px; padding-top: 10px;}
-h1{color: white; text-align: center; padding-top: 300px;}
+h3{color: white; position: relative; left: -140px; padding-top: 20px;}
+h1{color: rgb(226, 226, 226); text-align: center; padding-top: 300px;}
 
 .menu{padding-top: 10px; height: 68px;}
 .usus 
 {
+  top: -40px;
   position: absolute;
   left: 1010px;
   z-index: 1;
   text-decoration: none; transition-duration: 0.4s;
 }
-
 
 .bm2  {position: absolute;  top: 10px; left: 400px; background-color: rgba(255, 255, 255, 0); padding: 10px 24px; border-radius: 14px;  text-decoration: none; transition-duration: 0.4s;
   cursor: pointer; border: 2px solid #ffffff00;
@@ -117,6 +114,7 @@ h1{color: white; text-align: center; padding-top: 300px;}
   z-index: 1;
 
   color: #fff;
+  font-size: 15px;
 
 } 
 
@@ -128,7 +126,7 @@ z-index: 1;
   color: #fff;
 cursor: pointer;
 display: block;
-
+font-size: 15px;;
 
 transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 

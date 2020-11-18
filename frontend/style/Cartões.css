@@ -79,7 +79,7 @@ h2{color: white;  display:inline;  position: relative;padding-top: 10px;}
 
 
 footer{
-    position: relative; top: 424px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
+    position: relative; top: 302px; font-size: 16px;color: white; background: rgba(5, 5, 5, 0.698) no-repeat fixed;
     text-align: center;
     padding-top: 15px;
     padding-right: 15px;
@@ -199,52 +199,11 @@ font-size: 16.5px;
 
 .bi-box-arrow-right{position: relative; left: 34px;}
 
-.Display1{font-size: 80px; color: black; padding-top: 100px;}
+img{width: 80px; height: 60px;}
 
-h3{ font-size: 30px; color: white; position: relative; padding-top: 30px;}
+.c1, .c2,.c3{background-color: rgba(255, 255, 255, 0); padding: 10px 24px; border-radius: 14px;  text-decoration: none; transition-duration: 0.4s;
+    cursor: pointer; border: 2px solid #ffffff00; width: 600px; margin-bottom: 30px; color: white; }
 
-.a1 {text-decoration: underline; color: white;
-    position: relative; background-color: rgba(255, 255, 255, 0); border-radius: 14px;
-    transition-duration: 0.4s;
-    cursor: pointer; border: 2px solid #ffffff00;
-    width: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #fff;
-	cursor: pointer;
-	display: inline;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-}
-.a1:hover { 
-    text-decoration: none;
-    color: black;
-	background-color: transparent;
-}
-.a1:hover:before{
-    left: 0%;
-	right: auto;
-    width: 100%; border-radius: 10px
-}
+.c1:hover, .c2:hover,.c3:hover{background-color: rgba(5, 5, 5, 0.39); color: white;  border-radius: 10px; border: white 1px solid;}
 
-.a1:before{
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 0px;
-    z-index: -1;
-    content: '';
-    color: #000 !important;
-    background: rgb(255, 255, 255);
-    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-    border-radius: 14px
-}
-
-
-.blockquote {display: inline;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 65px;
-}
+.Cartões{width: 300px;  padding-left: 300px; padding-top: 100px;}
